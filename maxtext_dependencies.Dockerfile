@@ -1,5 +1,5 @@
 # Use Python 3.10 as the base image
-FROM python:3.10-slim-bullseye
+FROM python:3.13-rc-slim-bookworm
 
 # Install system dependencies Git, and numactl
 RUN apt-get update && apt-get install -y curl gnupg git numactl
